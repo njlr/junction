@@ -1,0 +1,12 @@
+cxx_binary(
+  name = 'MapScalabilityTests',
+  srcs = [
+    'MapScalabilityTests.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++11',
+  ],
+  deps = [
+    '//:junction',
+  ],
+)

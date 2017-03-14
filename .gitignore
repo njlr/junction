@@ -1,3 +1,8 @@
 *build*/
 CMakeLists.txt.user
 *~
+/buck-out/
+/.buckd/
+/buckaroo/
+.buckconfig.local
+BUCKAROO_DEPS

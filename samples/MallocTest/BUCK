@@ -1,0 +1,12 @@
+cxx_binary(
+  name = 'MallocTest',
+  srcs = [
+    'MallocTest.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++11',
+  ],
+  deps = [
+    '//:junction',
+  ],
+)

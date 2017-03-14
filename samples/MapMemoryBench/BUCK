@@ -1,0 +1,12 @@
+cxx_binary(
+  name = 'MapMemoryBench',
+  srcs = [
+    'MapMemoryBench.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++11',
+  ],
+  deps = [
+    '//:junction',
+  ],
+)

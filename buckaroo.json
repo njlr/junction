@@ -1,0 +1,6 @@
+{
+  "name": "junction",
+  "dependencies": {
+    "turf": "0.0.1"
+  }
+}

@@ -1,0 +1,12 @@
+cxx_binary(
+  name = 'MapPerformanceTests',
+  srcs = [
+    'MapPerformanceTests.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++11',
+  ],
+  deps = [
+    '//:junction',
+  ],
+)
